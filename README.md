@@ -7,16 +7,7 @@ This repository contains configuration files for setting up a complete earthquak
 - **Grafana**: Visualization platform for earthquake data
 - **Prometheus**: Time-series database for storing earthquake metrics
 - **AlertManager**: Alert handling system for earthquake notifications
-- **Earthquake Exporter**: (Placeholder) Service that collects earthquake data from sources like USGS
-
-## Files
-
-- `earthquake-dashboard.json`: Grafana dashboard configuration
-- `prometheus-earthquake.yml`: Prometheus configuration file
-- `earthquake_rules.yml`: Prometheus alerting rules
-- `alertmanager.yml`: AlertManager configuration
-- `docker-compose.yml`: Docker Compose configuration to run the entire stack
-- `datasource-setup.md`: Guide for setting up required Grafana datasources
+- **Earthquake Exporter**: Service that collects earthquake data from sources like USGS
 
 ## Installation
 
@@ -39,14 +30,51 @@ This repository contains configuration files for setting up a complete earthquak
    - Username: admin
    - Password: admin
 
-5. Set up datasources in Grafana (see `datasource-setup.md` for detailed instructions):
-   - Add a Prometheus datasource named `prometheus` pointing to your Prometheus server
-   - Install the WorldMap panel plugin and configure a datasource named `worldmap`
+5. Set up datasources in Grafana (see detailed instructions below)
+6. Import the dashboard (see detailed instructions below)
 
-6. Import the dashboard:
-   - In Grafana, go to Dashboards > Import
-   - Upload the `earthquake-dashboard.json` file or copy-paste its contents
-   - If prompted to select datasources, map them correctly to your configured datasources
+## Setting Up Datasources in Grafana
+
+Before importing the earthquake dashboard, you need to set up the required datasources in Grafana:
+
+### 1. Prometheus Datasource
+
+1. Log in to Grafana (<http://localhost:3000>) with admin/admin
+2. Go to **Configuration** > **Data Sources**
+3. Click **Add data source**
+4. Select **Prometheus**
+5. Configure the datasource:
+   - Name: `prometheus` (important: this exact name is used in the dashboard)
+   - URL: `http://prometheus:9090` (if using Docker Compose) or your Prometheus server URL
+   - Access: Server (default)
+6. Click **Save & Test** to verify the connection
+
+### 2. WorldMap Plugin and Datasource
+
+The earthquake dashboard uses the WorldMap Panel plugin which needs to be installed:
+
+1. Go to **Configuration** > **Plugins**
+2. Search for "WorldMap Panel"
+3. Click on the plugin and click **Install**
+4. Restart Grafana if needed
+
+After installing the plugin, set up a datasource for it:
+
+1. Go to **Configuration** > **Data Sources**
+2. Click **Add data source**
+3. Search for and select **Grafana WorldMap Panel**
+   - If you can't find it, any JSON or Prometheus datasource can work with the WorldMap panel
+4. Name it `worldmap` (important: this exact name is used in the dashboard)
+5. Configure according to your data needs
+6. Click **Save & Test**
+
+### 3. Import the Dashboard
+
+Now that you have set up the required datasources:
+
+1. Go to **Dashboards** > **Import**
+2. Upload the `earthquake-dashboard.json` file or paste its contents
+3. Click **Import**
 
 ## Troubleshooting
 
@@ -58,7 +86,14 @@ If you see an error like `datasource ${DS_PROMETHEUS} not found`, follow these s
    - All instances of `${DS_PROMETHEUS}` with `prometheus`
    - All instances of `${DS_WORLDMAP}` with `worldmap`
 
-See `datasource-setup.md` for more detailed instructions on setting up datasources.
+If you still see "$DS_PROMETHEUS not found" errors:
+
+1. Edit the dashboard JSON directly in a text editor
+2. Replace all instances of `${DS_PROMETHEUS}` with `prometheus`
+3. Replace all instances of `${DS_WORLDMAP}` with `worldmap`
+4. Save the file and import again
+
+Alternatively, when importing the dashboard in Grafana, you can manually map the variables to your datasources in the import UI.
 
 ## Alerts
 

@@ -1,4 +1,6 @@
-# Earthquake Monitoring Dashboard
+# Cattle Dog
+
+A simple but powerful Earthquake Monitoring Dashboard
 
 This repository contains configuration files for setting up a complete earthquake monitoring system using Grafana, Prometheus, and AlertManager.
 
@@ -15,8 +17,8 @@ This repository contains configuration files for setting up a complete earthquak
 2. Clone this repository:
 
    ```shell
-   git clone <repository-url>
-   cd earthquake-monitoring
+   git clone https://github.com/kiwi-rikasa/cattle-dog
+   cd cattle-dog
    ```
 
 3. Start the stack:
@@ -106,8 +108,8 @@ The system comes with pre-configured alerts:
 
 ## Customization
 
-- Modify `alertmanager.yml` to configure your own notification channels (email, Slack, PagerDuty, etc.)
-- Adjust alert thresholds in `earthquake_rules.yml`
+- Modify `alertmanager-config.yml` to configure your own notification channels (email, Slack, PagerDuty, etc.)
+- Adjust alert thresholds in `prometheus-alert-rules.yml`
 - Customize the dashboard in Grafana after importing
 
 ## Data Source

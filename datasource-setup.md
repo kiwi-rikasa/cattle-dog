@@ -9,7 +9,7 @@ Before importing the earthquake dashboard, you need to set up the required datas
 3. Click **Add data source**
 4. Select **Prometheus**
 5. Configure the datasource:
-   - Name: `Prometheus` (important: this exact name is used in the dashboard)
+   - Name: `prometheus` (important: this exact name is used in the dashboard)
    - URL: `http://prometheus:9090` (if using Docker Compose) or your Prometheus server URL
    - Access: Server (default)
 6. Click **Save & Test** to verify the connection

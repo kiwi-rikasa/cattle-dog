@@ -52,7 +52,7 @@ This repository contains configuration files for setting up a complete earthquak
 
 If you see an error like `datasource ${DS_PROMETHEUS} not found`, follow these steps:
 
-1. Make sure you've set up the Prometheus datasource with the name `prometheus` 
+1. Make sure you've set up the Prometheus datasource with the name `prometheus`
 2. Make sure you've installed the WorldMap panel plugin and set up a datasource named `worldmap`
 3. Alternatively, edit the `earthquake-dashboard.json` file and replace:
    - All instances of `${DS_PROMETHEUS}` with `prometheus`

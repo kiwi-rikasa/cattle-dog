@@ -4,7 +4,7 @@ Before importing the earthquake dashboard, you need to set up the required datas
 
 ## 1. Prometheus Datasource
 
-1. Log in to Grafana (http://localhost:3000) with admin/admin
+1. Log in to Grafana (<http://localhost:3000>) with admin/admin
 2. Go to **Configuration** > **Data Sources**
 3. Click **Add data source**
 4. Select **Prometheus**
@@ -50,4 +50,4 @@ If you still see "$DS_PROMETHEUS not found" errors:
 3. Replace all instances of `${DS_WORLDMAP}` with `worldmap`
 4. Save the file and import again
 
-Alternatively, when importing the dashboard in Grafana, you can manually map the variables to your datasources in the import UI. 
+Alternatively, when importing the dashboard in Grafana, you can manually map the variables to your datasources in the import UI.

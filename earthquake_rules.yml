@@ -1,0 +1,38 @@
+groups:
+- name: earthquake_alerts
+  rules:
+  - alert: HighMagnitudeEarthquake
+    expr: earthquake_magnitude > 6.0
+    for: 0m
+    labels:
+      severity: critical
+    annotations:
+      summary: "High Magnitude Earthquake Detected ({{ $value }})"
+      description: "An earthquake with magnitude {{ $value }} has been detected in region {{ $labels.region }}."
+
+  - alert: ModerateMagnitudeEarthquake
+    expr: earthquake_magnitude > 5.0 and earthquake_magnitude <= 6.0
+    for: 0m
+    labels:
+      severity: warning
+    annotations:
+      summary: "Moderate Magnitude Earthquake Detected ({{ $value }})"
+      description: "An earthquake with magnitude {{ $value }} has been detected in region {{ $labels.region }}."
+
+  - alert: EarthquakeDataCollectionFailure
+    expr: up{job="earthquake_exporter"} == 0
+    for: 5m
+    labels:
+      severity: warning
+    annotations:
+      summary: "Earthquake Data Collection Failure"
+      description: "The earthquake data exporter has been down for more than 5 minutes. Instance: {{ $labels.instance }}"
+
+  - alert: IncreasedSeismicActivity
+    expr: sum(increase(earthquake_count[24h])) by (region) > 10
+    for: 10m
+    labels:
+      severity: warning
+    annotations:
+      summary: "Increased Seismic Activity Detected"
+      description: "Region {{ $labels.region }} has experienced more than 10 earthquakes in the last 24 hours." 

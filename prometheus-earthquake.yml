@@ -1,0 +1,37 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: "earthquake_api"
+    metrics_path: "/metrics"
+    scheme: "https"
+    static_configs:
+      - targets: ["earthquake-api:9090"]
+
+  - job_name: "earthquake_exporter"
+    scrape_interval: 1m
+    static_configs:
+      - targets: ["earthquake-exporter:9091"]
+    
+    relabel_configs:
+      - source_labels: [__address__]
+        target_label: instance
+        regex: '([^:]+)(?::\d+)?'
+        replacement: '${1}'
+      - source_labels: [__address__]
+        target_label: __address__
+        regex: '([^:]+)(?::\d+)?'
+        replacement: '${1}:9091'
+
+  - job_name: "node_exporter"
+    static_configs:
+      - targets: ["node-exporter:9100"]
+
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets: ["alertmanager:9093"]
+
+rule_files:
+  - "earthquake_rules.yml" 

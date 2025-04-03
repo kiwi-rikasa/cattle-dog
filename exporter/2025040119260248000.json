@@ -1,0 +1,64 @@
+{
+  "earthquake_id": "2025040119260248000",
+  "earthquake_datetime": "2025-04-01 19:26:02",
+  "earthquake_timestamp": 1743506762,
+  "magnitude": 4.8,
+  "stations": [
+    {
+      "station_id": "ETL",
+      "station_name": "太魯閣",
+      "county_name": "花蓮縣",
+      "latitude": 24.159,
+      "longitude": 121.623,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "ETLH",
+      "station_name": "西寶",
+      "county_name": "花蓮縣",
+      "latitude": 24.207,
+      "longitude": 121.482,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "LAY",
+      "station_name": "蘭嶼",
+      "county_name": "臺東縣",
+      "latitude": 22.037,
+      "longitude": 121.558,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "CHK",
+      "station_name": "成功",
+      "county_name": "臺東縣",
+      "latitude": 23.098,
+      "longitude": 121.373,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "EDH",
+      "station_name": "東河",
+      "county_name": "臺東縣",
+      "latitude": 22.973,
+      "longitude": 121.304,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "ECB",
+      "station_name": "長濱",
+      "county_name": "臺東縣",
+      "latitude": 23.316,
+      "longitude": 121.451,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "EHD",
+      "station_name": "海端",
+      "county_name": "臺東縣",
+      "latitude": 23.149,
+      "longitude": 121.206,
+      "intensity": 1.0
+    }
+  ]
+}

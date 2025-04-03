@@ -1,0 +1,720 @@
+{
+  "earthquake_id": "2025032509404851076",
+  "earthquake_datetime": "2025-03-25 09:40:48",
+  "earthquake_timestamp": 1742866848,
+  "magnitude": 5.1,
+  "stations": [
+    {
+      "station_id": "WHF",
+      "station_name": "合歡山",
+      "county_name": "南投縣",
+      "latitude": 24.143,
+      "longitude": 121.273,
+      "intensity": 4.0
+    },
+    {
+      "station_id": "OWD",
+      "station_name": "奧萬大",
+      "county_name": "南投縣",
+      "latitude": 23.955,
+      "longitude": 121.176,
+      "intensity": 3.0
+    },
+    {
+      "station_id": "WPL",
+      "station_name": "埔里",
+      "county_name": "南投縣",
+      "latitude": 24.012,
+      "longitude": 120.957,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "SML",
+      "station_name": "日月潭",
+      "county_name": "南投縣",
+      "latitude": 23.881,
+      "longitude": 120.908,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "YUS",
+      "station_name": "玉山",
+      "county_name": "南投縣",
+      "latitude": 23.487,
+      "longitude": 120.959,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "WHY",
+      "station_name": "信義鄉",
+      "county_name": "南投縣",
+      "latitude": 23.696,
+      "longitude": 120.853,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "WCS",
+      "station_name": "國姓",
+      "county_name": "南投縣",
+      "latitude": 24.057,
+      "longitude": 120.912,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "TYC",
+      "station_name": "魚池",
+      "county_name": "南投縣",
+      "latitude": 23.905,
+      "longitude": 120.87,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "WJS",
+      "station_name": "竹山",
+      "county_name": "南投縣",
+      "latitude": 23.822,
+      "longitude": 120.728,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "WNT",
+      "station_name": "名間",
+      "county_name": "南投縣",
+      "latitude": 23.877,
+      "longitude": 120.693,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "WNT1",
+      "station_name": "南投市",
+      "county_name": "南投縣",
+      "latitude": 23.907,
+      "longitude": 120.68,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "SCS",
+      "station_name": "旗山",
+      "county_name": "高雄市",
+      "latitude": 22.886,
+      "longitude": 120.494,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "C015",
+      "station_name": "白河",
+      "county_name": "臺南市",
+      "latitude": 23.353,
+      "longitude": 120.414,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "SSH",
+      "station_name": "善化",
+      "county_name": "臺南市",
+      "latitude": 23.136,
+      "longitude": 120.288,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "C092",
+      "station_name": "西螺",
+      "county_name": "雲林縣",
+      "latitude": 23.789,
+      "longitude": 120.486,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "WDL",
+      "station_name": "斗六市",
+      "county_name": "雲林縣",
+      "latitude": 23.715,
+      "longitude": 120.539,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "WML",
+      "station_name": "麥寮",
+      "county_name": "雲林縣",
+      "latitude": 23.804,
+      "longitude": 120.223,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "WSF",
+      "station_name": "四湖",
+      "county_name": "雲林縣",
+      "latitude": 23.636,
+      "longitude": 120.23,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "CHN5",
+      "station_name": "草嶺",
+      "county_name": "雲林縣",
+      "latitude": 23.597,
+      "longitude": 120.677,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "WGK",
+      "station_name": "古坑",
+      "county_name": "雲林縣",
+      "latitude": 23.684,
+      "longitude": 120.57,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "WSL",
+      "station_name": "水林",
+      "county_name": "雲林縣",
+      "latitude": 23.523,
+      "longitude": 120.228,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "NHDH",
+      "station_name": "新店",
+      "county_name": "新北市",
+      "latitude": 24.96,
+      "longitude": 121.525,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "A024",
+      "station_name": "新北市",
+      "county_name": "新北市",
+      "latitude": 25.019,
+      "longitude": 121.475,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "NXZ",
+      "station_name": "汐止",
+      "county_name": "新北市",
+      "latitude": 25.077,
+      "longitude": 121.64,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "NTS",
+      "station_name": "淡水",
+      "county_name": "新北市",
+      "latitude": 25.164,
+      "longitude": 121.449,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "EYL",
+      "station_name": "鹽寮",
+      "county_name": "花蓮縣",
+      "latitude": 23.904,
+      "longitude": 121.602,
+      "intensity": 4.0
+    },
+    {
+      "station_id": "HWA",
+      "station_name": "花蓮市",
+      "county_name": "花蓮縣",
+      "latitude": 23.975,
+      "longitude": 121.614,
+      "intensity": 4.0
+    },
+    {
+      "station_id": "ETL",
+      "station_name": "太魯閣",
+      "county_name": "花蓮縣",
+      "latitude": 24.159,
+      "longitude": 121.623,
+      "intensity": 4.0
+    },
+    {
+      "station_id": "ETLH",
+      "station_name": "西寶",
+      "county_name": "花蓮縣",
+      "latitude": 24.207,
+      "longitude": 121.482,
+      "intensity": 4.0
+    },
+    {
+      "station_id": "ETM",
+      "station_name": "銅門",
+      "county_name": "花蓮縣",
+      "latitude": 23.966,
+      "longitude": 121.493,
+      "intensity": 4.0
+    },
+    {
+      "station_id": "TWD",
+      "station_name": "秀林",
+      "county_name": "花蓮縣",
+      "latitude": 24.081,
+      "longitude": 121.605,
+      "intensity": 3.0
+    },
+    {
+      "station_id": "ESL",
+      "station_name": "西林",
+      "county_name": "花蓮縣",
+      "latitude": 23.812,
+      "longitude": 121.442,
+      "intensity": 3.0
+    },
+    {
+      "station_id": "EGC",
+      "station_name": "磯崎",
+      "county_name": "花蓮縣",
+      "latitude": 23.708,
+      "longitude": 121.548,
+      "intensity": 3.0
+    },
+    {
+      "station_id": "EHP",
+      "station_name": "和平",
+      "county_name": "花蓮縣",
+      "latitude": 24.309,
+      "longitude": 121.749,
+      "intensity": 3.0
+    },
+    {
+      "station_id": "EGFH",
+      "station_name": "光復",
+      "county_name": "花蓮縣",
+      "latitude": 23.669,
+      "longitude": 121.428,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "EHY",
+      "station_name": "紅葉",
+      "county_name": "花蓮縣",
+      "latitude": 23.504,
+      "longitude": 121.33,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "SHUL",
+      "station_name": "水璉",
+      "county_name": "花蓮縣",
+      "latitude": 23.788,
+      "longitude": 121.563,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "EYUL",
+      "station_name": "玉里",
+      "county_name": "花蓮縣",
+      "latitude": 23.347,
+      "longitude": 121.319,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "FULB",
+      "station_name": "富里",
+      "county_name": "花蓮縣",
+      "latitude": 23.199,
+      "longitude": 121.294,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "NJN",
+      "station_name": "竹南",
+      "county_name": "苗栗縣",
+      "latitude": 24.684,
+      "longitude": 120.87,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "H176",
+      "station_name": "泰安",
+      "county_name": "苗栗縣",
+      "latitude": 24.465,
+      "longitude": 120.941,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "TWQ1",
+      "station_name": "鯉魚潭",
+      "county_name": "苗栗縣",
+      "latitude": 24.347,
+      "longitude": 120.781,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "NST",
+      "station_name": "南庄",
+      "county_name": "苗栗縣",
+      "latitude": 24.63,
+      "longitude": 121.009,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "NSY",
+      "station_name": "三義",
+      "county_name": "苗栗縣",
+      "latitude": 24.414,
+      "longitude": 120.77,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "NML",
+      "station_name": "苗栗市",
+      "county_name": "苗栗縣",
+      "latitude": 24.565,
+      "longitude": 120.826,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "ECB",
+      "station_name": "長濱",
+      "county_name": "臺東縣",
+      "latitude": 23.316,
+      "longitude": 121.451,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "CHK",
+      "station_name": "成功",
+      "county_name": "臺東縣",
+      "latitude": 23.098,
+      "longitude": 121.373,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "EHD",
+      "station_name": "海端",
+      "county_name": "臺東縣",
+      "latitude": 23.149,
+      "longitude": 121.206,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "ECS",
+      "station_name": "池上",
+      "county_name": "臺東縣",
+      "latitude": 23.095,
+      "longitude": 121.219,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "ELD",
+      "station_name": "利稻",
+      "county_name": "臺東縣",
+      "latitude": 23.187,
+      "longitude": 121.025,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "EDH",
+      "station_name": "東河",
+      "county_name": "臺東縣",
+      "latitude": 22.973,
+      "longitude": 121.304,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "WCHH",
+      "station_name": "彰化市",
+      "county_name": "彰化縣",
+      "latitude": 24.079,
+      "longitude": 120.558,
+      "intensity": 3.0
+    },
+    {
+      "station_id": "WYL",
+      "station_name": "員林",
+      "county_name": "彰化縣",
+      "latitude": 23.961,
+      "longitude": 120.58,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "B112",
+      "station_name": "鹿港",
+      "county_name": "彰化縣",
+      "latitude": 24.055,
+      "longitude": 120.43,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "WRL",
+      "station_name": "二林",
+      "county_name": "彰化縣",
+      "latitude": 23.903,
+      "longitude": 120.378,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "WTC",
+      "station_name": "大城",
+      "county_name": "彰化縣",
+      "latitude": 23.862,
+      "longitude": 120.289,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "NSK",
+      "station_name": "三光",
+      "county_name": "桃園市",
+      "latitude": 24.674,
+      "longitude": 121.367,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "B011",
+      "station_name": "大溪",
+      "county_name": "桃園市",
+      "latitude": 24.884,
+      "longitude": 121.286,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "NTY",
+      "station_name": "桃園市",
+      "county_name": "桃園市",
+      "latitude": 25.0,
+      "longitude": 121.298,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "NHW",
+      "station_name": "新屋",
+      "county_name": "桃園市",
+      "latitude": 25.007,
+      "longitude": 121.048,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "KSHI",
+      "station_name": "關西",
+      "county_name": "新竹縣",
+      "latitude": 24.777,
+      "longitude": 121.175,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "NFF",
+      "station_name": "五峰",
+      "county_name": "新竹縣",
+      "latitude": 24.632,
+      "longitude": 121.118,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "LIOB",
+      "station_name": "峨眉",
+      "county_name": "新竹縣",
+      "latitude": 24.647,
+      "longitude": 121.016,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "NJD",
+      "station_name": "竹東",
+      "county_name": "新竹縣",
+      "latitude": 24.736,
+      "longitude": 121.088,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "HSN",
+      "station_name": "竹北市",
+      "county_name": "新竹縣",
+      "latitude": 24.828,
+      "longitude": 121.014,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "FUSS",
+      "station_name": "梨山",
+      "county_name": "臺中市",
+      "latitude": 24.248,
+      "longitude": 121.244,
+      "intensity": 3.0
+    },
+    {
+      "station_id": "TWT",
+      "station_name": "德基",
+      "county_name": "臺中市",
+      "latitude": 24.25,
+      "longitude": 121.162,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "WHP",
+      "station_name": "烏石坑",
+      "county_name": "臺中市",
+      "latitude": 24.278,
+      "longitude": 120.946,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "B219",
+      "station_name": "霧峰",
+      "county_name": "臺中市",
+      "latitude": 24.042,
+      "longitude": 120.7,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "TCU",
+      "station_name": "臺中市",
+      "county_name": "臺中市",
+      "latitude": 24.146,
+      "longitude": 120.684,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "WWC",
+      "station_name": "梧棲",
+      "county_name": "臺中市",
+      "latitude": 24.257,
+      "longitude": 120.523,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "WCKO",
+      "station_name": "番路",
+      "county_name": "嘉義縣",
+      "latitude": 23.439,
+      "longitude": 120.605,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "ALS",
+      "station_name": "阿里山",
+      "county_name": "嘉義縣",
+      "latitude": 23.508,
+      "longitude": 120.813,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "CHN2",
+      "station_name": "民雄",
+      "county_name": "嘉義縣",
+      "latitude": 23.532,
+      "longitude": 120.474,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "CHY1",
+      "station_name": "太保市",
+      "county_name": "嘉義縣",
+      "latitude": 23.457,
+      "longitude": 120.294,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "CHN8",
+      "station_name": "義竹",
+      "county_name": "嘉義縣",
+      "latitude": 23.347,
+      "longitude": 120.223,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "HSN1",
+      "station_name": "新竹市",
+      "county_name": "新竹市",
+      "latitude": 24.779,
+      "longitude": 121.018,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "EAH",
+      "station_name": "澳花",
+      "county_name": "宜蘭縣",
+      "latitude": 24.329,
+      "longitude": 121.739,
+      "intensity": 3.0
+    },
+    {
+      "station_id": "ENA",
+      "station_name": "南澳",
+      "county_name": "宜蘭縣",
+      "latitude": 24.426,
+      "longitude": 121.749,
+      "intensity": 3.0
+    },
+    {
+      "station_id": "EWT",
+      "station_name": "武塔",
+      "county_name": "宜蘭縣",
+      "latitude": 24.445,
+      "longitude": 121.778,
+      "intensity": 3.0
+    },
+    {
+      "station_id": "NNS",
+      "station_name": "南山",
+      "county_name": "宜蘭縣",
+      "latitude": 24.437,
+      "longitude": 121.381,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "NDS",
+      "station_name": "冬山",
+      "county_name": "宜蘭縣",
+      "latitude": 24.634,
+      "longitude": 121.717,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "ENT",
+      "station_name": "牛鬥",
+      "county_name": "宜蘭縣",
+      "latitude": 24.638,
+      "longitude": 121.574,
+      "intensity": 2.0
+    },
+    {
+      "station_id": "NDT",
+      "station_name": "大同",
+      "county_name": "宜蘭縣",
+      "latitude": 24.603,
+      "longitude": 121.513,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "TWC",
+      "station_name": "蘇澳",
+      "county_name": "宜蘭縣",
+      "latitude": 24.608,
+      "longitude": 121.86,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "TWE",
+      "station_name": "內城",
+      "county_name": "宜蘭縣",
+      "latitude": 24.718,
+      "longitude": 121.683,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "ILA",
+      "station_name": "宜蘭市",
+      "county_name": "宜蘭縣",
+      "latitude": 24.764,
+      "longitude": 121.757,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "NTC",
+      "station_name": "頭城",
+      "county_name": "宜蘭縣",
+      "latitude": 24.854,
+      "longitude": 121.83,
+      "intensity": 1.0
+    },
+    {
+      "station_id": "CHY",
+      "station_name": "嘉義市",
+      "county_name": "嘉義市",
+      "latitude": 23.496,
+      "longitude": 120.433,
+      "intensity": 1.0
+    }
+  ]
+}

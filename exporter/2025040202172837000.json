@@ -1,0 +1,16 @@
+{
+  "earthquake_id": "2025040202172837000",
+  "earthquake_datetime": "2025-04-02 02:17:28",
+  "earthquake_timestamp": 1743531448,
+  "magnitude": 3.7,
+  "stations": [
+    {
+      "station_id": "LAY",
+      "station_name": "蘭嶼",
+      "county_name": "臺東縣",
+      "latitude": 22.037,
+      "longitude": 121.558,
+      "intensity": 3.0
+    }
+  ]
+}
